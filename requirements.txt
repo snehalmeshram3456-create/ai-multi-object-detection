@@ -1,0 +1,46 @@
+# ============================================================
+# requirements.txt
+# AI Multi-Object Detection System (YOLOv8 + OpenCV + PyTorch)
+#
+# Usage:
+#   pip install -r requirements.txt
+#
+# This will automatically download and install every package
+# listed below, in one go.
+# ============================================================
+
+# --- Core deep learning framework ---
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- YOLOv8 (object detection, training, inference) ---
+ultralytics>=8.0.0
+
+# --- Computer vision / video & image processing ---
+opencv-python>=4.8.0
+
+# --- Data handling & numerical computation ---
+numpy>=1.24.0
+pandas>=2.0.0
+
+# --- Visualization (used internally by YOLO for training graphs, results) ---
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# --- Image handling ---
+Pillow>=9.5.0
+
+# --- Progress bars (used by YOLO / training loops) ---
+tqdm>=4.65.0
+
+# --- YAML parsing (reads dataset.yaml / data.yaml) ---
+PyYAML>=6.0
+
+# --- XML parsing (used by convert_xml_to_yolo.py, usually built-in but listed for clarity) ---
+lxml>=4.9.0
+
+# --- Config / results export ---
+requests>=2.31.0
+
+# --- Optional: GPU acceleration check / CUDA utils (safe on CPU too) ---
+psutil>=5.9.0
