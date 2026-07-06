@@ -13,7 +13,7 @@ frame_width = 640
 frame_height = 480
 
 cap.set(3, frame_width)
-cap.set(4, frame_height)
+cap.set(4, frame_height)                                                
 
 # Video Writers
 out = cv2.VideoWriter(
